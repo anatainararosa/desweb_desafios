@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+}
+
+div {
+    margin-top: 21.5px;
+    padding: 0px 200px 0px 220px;
+}
+
+div.a {
+    padding: 0px 160px 0px 200px;
+}
+
+a {
+    float: right;
+    padding: 20px 10px 0px 0px;
+}
+
+#users{
+    text-align: center;
+    
+}
+
+.footer{
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;    
+}
+
+div.c {
+    padding: 0px 160px 0px 200px;
+    margin-bottom: 50px;
+}
+
+
+div.quem {
+    padding: 0px 160px 0px 200px;
+    margin-bottom: 50px;
+}
+
+tr{
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px; 
+}
+
+tr > td,th {
+    border-style: solid; 
+    border-color: black;
+    border-width: 2px; 
+}
+
+
+
+.logo {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.capa {
+    margin-top: 50px;
+}
+
+.texto {
+    margin-left: 150px;
+    margin-right: 150px;
+}

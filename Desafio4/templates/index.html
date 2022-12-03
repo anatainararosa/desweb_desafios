@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+<body background="{{ url_for('static', filename='img/fundo.png') }}">
+{% block contents %}
+
+<div>
+    <img src="{{ url_for('static', filename='img/capa.png')}}" alt="capa" style="float: center;">
+</div>
+
+        <div class="texto">
+            <h2> Sobre a universidade </h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, ratione ut. Molestias voluptatum quaerat rem. Voluptatum accusamus, eos delectus error ab eligendi. Temporibus ducimus, similique quidem tenetur quo magni possimus! </p>
+        </div>
+            
+{% endblock contents %}
